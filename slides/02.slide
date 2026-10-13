@@ -1,0 +1,40 @@
+<Slide style={{ width: '1280px', height: '720px', background: '#0B1220', padding: '20px 64px' }}>
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'flex-end' }}>
+    <Box style={{ borderLeft: '6px solid #38BDF8', paddingLeft: 18 }}>
+      <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#E5EDF7' }}>目录</Text>
+      <Text style={{ fontSize: 18, color: '#94A3B8', marginTop: 4, letterSpacing: 2 }}>CONTENTS</Text>
+    </Box>
+  </Box>
+  <Box style={{ height: 540, flexDirection: 'row', gap: 36 }}>
+    <Box style={{ width: '32%', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 120, fontWeight: 'bold', color: '#16203A', lineHeight: 1 }}>05</Text>
+      <Text style={{ fontSize: 20, color: '#94A3B8', marginTop: 8 }}>五大章节 · 从背景到路线图</Text>
+    </Box>
+    <Box style={{ width: '68%', justifyContent: 'center', gap: 18 }}>
+      <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#38BDF8' }}>01</Text>
+        <Box><Text style={{ fontSize: 22, fontWeight: 'bold', color: '#E5EDF7' }}>背景与愿景</Text><Text style={{ fontSize: 16, color: '#94A3B8' }}>Vector 定位、使命公式与工程团队五大挑战</Text></Box>
+      </Box>
+      <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#38BDF8' }}>02</Text>
+        <Box><Text style={{ fontSize: 22, fontWeight: 'bold', color: '#E5EDF7' }}>解决方案 · MCP 与架构</Text><Text style={{ fontSize: 16, color: '#94A3B8' }}>MCP 协议、CANoe AI 架构与两种使用方式</Text></Box>
+      </Box>
+      <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#38BDF8' }}>03</Text>
+        <Box><Text style={{ fontSize: 22, fontWeight: 'bold', color: '#E5EDF7' }}>核心组件</Text><Text style={{ fontSize: 16, color: '#94A3B8' }}>Knowledge Server、AI Package 与四大代理交付</Text></Box>
+      </Box>
+      <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#38BDF8' }}>04</Text>
+        <Box><Text style={{ fontSize: 22, fontWeight: 'bold', color: '#E5EDF7' }}>实战演示</Text><Text style={{ fontSize: 16, color: '#94A3B8' }}>安装配置、分析工作流、配置扩展与编排器</Text></Box>
+      </Box>
+      <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#38BDF8' }}>05</Text>
+        <Box><Text style={{ fontSize: 22, fontWeight: 'bold', color: '#E5EDF7' }}>路线图与问答</Text><Text style={{ fontSize: 16, color: '#94A3B8' }}>产品路线图、精选问答与术语表</Text></Box>
+      </Box>
+    </Box>
+  </Box>
+  <Box style={{ height: 40, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>Vector CANoe AI · 研讨会分享</Text>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>02 / 23</Text>
+  </Box>
+</Slide>

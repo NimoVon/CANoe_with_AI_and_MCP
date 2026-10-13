@@ -1,0 +1,15 @@
+<Slide style={{ width: '1280px', height: '720px', background: 'linear-gradient(135deg,#0B1220 0%,#16203A 100%)', padding: '0' }}>
+  <Box style={{ position: 'absolute', top: -60, right: -60, width: 420, height: 420, background: 'radial-gradient(circle, rgba(56,189,248,0.12) 0%, transparent 70%)' }} />
+  <Text style={{ position: 'absolute', right: 24, top: 150, fontSize: 440, fontWeight: 'bold', color: 'rgba(56,189,248,0.20)', lineHeight: 1 }}>05</Text>
+  <Box style={{ position: 'relative', width: '100%', height: '100%', padding: '0 96px', justifyContent: 'center' }}>
+    <Box style={{ width: '54%', gap: 14 }}>
+      <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#38BDF8', letterSpacing: 4 }}>CHAPTER 05</Text>
+      <Text style={{ fontSize: 60, fontWeight: 'bold', color: '#E5EDF7' }}>路线图与问答</Text>
+      <Text style={{ fontSize: 22, color: '#94A3B8', marginTop: 8 }}>产品路线图、精选问答与术语表</Text>
+    </Box>
+  </Box>
+  <Box style={{ position: 'absolute', left: 64, right: 64, bottom: 34, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid rgba(148,163,184,0.25)', paddingTop: 14 }}>
+    <Text style={{ fontSize: 16, color: '#94A3B8' }}>第 5 章 · 接下来怎么走 + 你关心的问题</Text>
+    <Text style={{ fontSize: 16, color: '#94A3B8' }}>Vector Informatik</Text>
+  </Box>
+</Slide>

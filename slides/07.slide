@@ -1,0 +1,30 @@
+<Slide style={{ width: '1280px', height: '720px', background: '#0B1220', padding: '20px 64px' }}>
+  <Box style={{ height: 100, borderLeft: '6px solid #38BDF8', paddingLeft: 18, justifyContent: 'center' }}>
+    <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#E5EDF7' }}>解决方案：MCP（模型上下文协议）</Text>
+  </Box>
+  <Box style={{ height: 540, flexDirection: 'row', gap: 36, alignItems: 'stretch' }}>
+    <Box style={{ width: '32%', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 76, fontWeight: 'bold', color: '#38BDF8', lineHeight: 1 }}>MCP</Text>
+      <Text style={{ fontSize: 22, color: '#E5EDF7', marginTop: 10 }}>模型上下文协议</Text>
+      <Text style={{ fontSize: 16, color: '#94A3B8', marginTop: 12, lineHeight: 1.6 }}>Model Context Protocol<br />AI 与工具之间的开放标准接口</Text>
+    </Box>
+    <Box style={{ width: '68%', gap: 14, justifyContent: 'center' }}>
+      <Box style={{ background: '#16203A', borderRadius: 10, padding: 16, borderLeft: '4px solid #38BDF8' }}>
+        <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#E5EDF7' }}>开放标准</Text>
+        <Text style={{ fontSize: 17, color: '#94A3B8', lineHeight: 1.5, marginTop: 4 }}>AI 与应用程序之间的标准接口，由 Anthropic 发起，现为厂商中立、行业广泛采用。</Text>
+      </Box>
+      <Box style={{ background: '#16203A', borderRadius: 10, padding: 16, borderLeft: '4px solid #38BDF8' }}>
+        <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#E5EDF7' }}>Vector 落地</Text>
+        <Text style={{ fontSize: 17, color: '#94A3B8', lineHeight: 1.5, marginTop: 4 }}>正把 MCP 及 MCP 服务器引入越来越多 Vector 工具，并持续扩展 MCP 工具。</Text>
+      </Box>
+      <Box style={{ background: '#16203A', borderRadius: 10, padding: 16, borderLeft: '4px solid #F97316' }}>
+        <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#E5EDF7' }}>对 CANoe 的两大赋能</Text>
+        <Text style={{ fontSize: 17, color: '#94A3B8', lineHeight: 1.5, marginTop: 4 }}>① Knowledge Server 解决"答案无依据"；② CANoe 本体（内置 MCP）解决"缺少工具访问"。</Text>
+      </Box>
+    </Box>
+  </Box>
+  <Box style={{ height: 40, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>Vector CANoe AI · 研讨会分享</Text>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>07 / 23</Text>
+  </Box>
+</Slide>

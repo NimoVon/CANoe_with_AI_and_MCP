@@ -1,0 +1,25 @@
+<Slide style={{ width: '1280px', height: '720px', background: '#0B1220', padding: '20px 64px' }}>
+  <Box style={{ height: 100, borderLeft: '6px solid #38BDF8', paddingLeft: 18, justifyContent: 'center' }}>
+    <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#E5EDF7' }}>Vector Knowledge Server（知识服务器）</Text>
+  </Box>
+  <Box style={{ height: 540, flexDirection: 'row', gap: 32, alignItems: 'stretch' }}>
+    <Box style={{ width: '54%', flexDirection: 'column', gap: 12 }}>
+      <Box style={{ height: 348, background: '#16203A', borderRadius: 12, padding: 12, justifyContent: 'center' }}>
+        <Image src="assets/knowledge_server.png" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+      </Box>
+      <Box style={{ flex: 1, background: '#16203A', borderRadius: 12, padding: 16, justifyContent: 'center' }}>
+        <Text style={{ fontSize: 16, color: '#94A3B8', lineHeight: 1.5 }}>图：Knowledge Server——LLM 不确定时经 MCP 取官方知识，答案有据可依、减少幻觉。</Text>
+      </Box>
+    </Box>
+    <Box style={{ width: '46%', gap: 12, justifyContent: 'space-between' }}>
+      <Text style={{ fontSize: 18, color: '#E5EDF7', lineHeight: 1.55 }}><span style={{ color: '#38BDF8', fontWeight: 'bold' }}>解决答案无依据</span>：LLM 不确定时经 MCP 取 Vector 知识，答案基于官方文档而非臆测，减少幻觉。</Text>
+      <Text style={{ fontSize: 18, color: '#94A3B8', lineHeight: 1.55 }}>模型不变：无需训练或微调，仅在你提问时检索相关文档注入上下文。</Text>
+      <Text style={{ fontSize: 18, color: '#94A3B8', lineHeight: 1.55 }}>以 Vector ID 认证登录；四步：提问 → 调用 KSS → 文档入上下文 → 作答。</Text>
+      <Text style={{ fontSize: 18, color: '#F97316', lineHeight: 1.55 }}><span style={{ fontWeight: 'bold' }}>价值</span>：更快得到答案、更少幻觉、单一可信来源。</Text>
+    </Box>
+  </Box>
+  <Box style={{ height: 40, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>Vector CANoe AI · 研讨会分享</Text>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>11 / 23</Text>
+  </Box>
+</Slide>

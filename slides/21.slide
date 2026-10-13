@@ -1,0 +1,44 @@
+<Slide style={{ width: '1280px', height: '720px', background: '#0B1220', padding: '20px 64px' }}>
+  <Box style={{ height: 100, borderLeft: '6px solid #38BDF8', paddingLeft: 18, justifyContent: 'center' }}>
+    <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#E5EDF7' }}>精选问答 · 你关心的问题</Text>
+  </Box>
+  <Box style={{ height: 540, flexDirection: 'row', gap: 32, alignItems: 'stretch' }}>
+    <Box style={{ width: '30%', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 20, color: '#94A3B8', lineHeight: 1.6 }}>现场与聊天区高频问题，精选 6 条；其中 Q6 原稿未作答，已标注。</Text>
+      <Box style={{ marginTop: 18, background: '#16203A', borderRadius: 10, padding: 16, borderLeft: '4px solid #F97316' }}>
+        <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#E5EDF7' }}>提示</Text>
+        <Text style={{ fontSize: 16, color: '#94A3B8', lineHeight: 1.5, marginTop: 4 }}>所有回答均基于 Vector 官方分享口径，未自行发挥。</Text>
+      </Box>
+    </Box>
+    <Box style={{ width: '70%', gap: 10, justifyContent: 'center' }}>
+      <Box style={{ background: '#16203A', borderRadius: 10, padding: '10px 14px' }}>
+        <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#38BDF8' }}>Q1 · 是否需要联网 / 云端？</Text>
+        <Text style={{ fontSize: 15, color: '#94A3B8', lineHeight: 1.45, marginTop: 2 }}>默认可本地 harness（如 Claude Code）配合本地模型或自建 LLM 端点；Knowledge Server 也可本地部署，数据可控。</Text>
+      </Box>
+      <Box style={{ background: '#16203A', borderRadius: 10, padding: '10px 14px' }}>
+        <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#38BDF8' }}>Q2 · 必须绑定某个 LLM 吗？</Text>
+        <Text style={{ fontSize: 15, color: '#94A3B8', lineHeight: 1.45, marginTop: 2 }}>支持 BYOM（自带模型），可接入自有或第三方 LLM 端点，不锁定厂商。</Text>
+      </Box>
+      <Box style={{ background: '#16203A', borderRadius: 10, padding: '10px 14px' }}>
+        <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#38BDF8' }}>Q3 · MCP 与以往脚本自动化有何区别？</Text>
+        <Text style={{ fontSize: 15, color: '#94A3B8', lineHeight: 1.45, marginTop: 2 }}>MCP（模型上下文协议）让 LLM 通过标准接口读写 CANoe 数据；比写死脚本更灵活，由模型按需调用工具。</Text>
+      </Box>
+      <Box style={{ background: '#16203A', borderRadius: 10, padding: '10px 14px' }}>
+        <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#38BDF8' }}>Q4 · 4 个内置代理分别做什么？</Text>
+        <Text style={{ fontSize: 15, color: '#94A3B8', lineHeight: 1.45, marginTop: 2 }}>Discovery 探查配置、Configuration 生成/修改配置、Coding 写 CAPL/C#、Analysis 分析测量与日志。</Text>
+      </Box>
+      <Box style={{ background: '#16203A', borderRadius: 10, padding: '10px 14px' }}>
+        <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#38BDF8' }}>Q5 · 最低版本要求？</Text>
+        <Text style={{ fontSize: 15, color: '#94A3B8', lineHeight: 1.45, marginTop: 2 }}>需要 CANoe 20 SP2。</Text>
+      </Box>
+      <Box style={{ background: '#1c2740', borderRadius: 10, padding: '10px 14px', borderLeft: '4px solid #EF4444' }}>
+        <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#EF4444' }}>Q6 · 调用次数 / token 限制或计费？（未作答）</Text>
+        <Text style={{ fontSize: 15, color: '#94A3B8', lineHeight: 1.45, marginTop: 2 }}>原稿现场未明确回答，仅记录问题。以 Vector 官方文档为准。</Text>
+      </Box>
+    </Box>
+  </Box>
+  <Box style={{ height: 40, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>Vector CANoe AI · 研讨会分享</Text>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>21 / 23</Text>
+  </Box>
+</Slide>

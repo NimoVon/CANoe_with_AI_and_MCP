@@ -1,0 +1,32 @@
+<Slide style={{ width: '1280px', height: '720px', background: '#0B1220', padding: '20px 64px' }}>
+  <Box style={{ height: 100, borderLeft: '6px solid #38BDF8', paddingLeft: 18, justifyContent: 'center' }}>
+    <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#E5EDF7' }}>产品路线图 · 持续演进</Text>
+  </Box>
+  <Box style={{ height: 540, flexDirection: 'row', gap: 32, alignItems: 'stretch' }}>
+    <Box style={{ width: '54%', flexDirection: 'column', gap: 12 }}>
+      <Box style={{ height: 348, background: '#16203A', borderRadius: 12, padding: 12, justifyContent: 'center' }}>
+        <Image src="assets/roadmap_overview.png" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+      </Box>
+      <Box style={{ flex: 1, background: '#16203A', borderRadius: 12, padding: 16, justifyContent: 'center' }}>
+        <Text style={{ fontSize: 16, color: '#94A3B8', lineHeight: 1.5 }}>图：路线图总览——AI 能力随 CANoe 版本分阶段交付，从基础代理到代理式编排逐步深入。</Text>
+      </Box>
+    </Box>
+    <Box style={{ width: '46%', gap: 12, justifyContent: 'space-between' }}>
+      <Box style={{ background: '#16203A', borderRadius: 10, padding: 14, borderLeft: '4px solid #38BDF8' }}>
+        <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#E5EDF7' }}>已发布</Text>
+        <Text style={{ fontSize: 15, color: '#94A3B8', lineHeight: 1.5, marginTop: 4 }}>CANoe AI Package、4 个内置代理、Vector Knowledge Server、MCP 接口；需 CANoe 20 SP2。</Text>
+      </Box>
+      <Box style={{ background: '#16203A', borderRadius: 10, padding: 14, borderLeft: '4px solid #F97316' }}>
+        <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#E5EDF7' }}>2026 年底前</Text>
+        <Text style={{ fontSize: 15, color: '#94A3B8', lineHeight: 1.5, marginTop: 4 }}>更多内置代理、更多 MCP 服务器；Knowledge Server 扩展知识源与检索。</Text>
+      </Box>
+      <Box style={{ height: 290, background: '#16203A', borderRadius: 12, padding: 6, justifyContent: 'center' }}>
+        <Image src="assets/ai_roadmap_detail.png" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+      </Box>
+    </Box>
+  </Box>
+  <Box style={{ height: 40, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>Vector CANoe AI · 研讨会分享</Text>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>20 / 23</Text>
+  </Box>
+</Slide>

@@ -1,0 +1,33 @@
+<Slide style={{ width: '1280px', height: '720px', background: '#0B1220', padding: '20px 64px' }}>
+  <Box style={{ height: 100, borderLeft: '6px solid #38BDF8', paddingLeft: 18, justifyContent: 'center' }}>
+    <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#E5EDF7' }}>演示一 · 分析工作流</Text>
+  </Box>
+  <Box style={{ height: 540, flexDirection: 'row', gap: 32, alignItems: 'stretch' }}>
+    <Box style={{ width: '46%', gap: 14, justifyContent: 'center' }}>
+      <Box style={{ background: '#16203A', borderRadius: 10, padding: 16, borderLeft: '4px solid #38BDF8' }}>
+        <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#E5EDF7' }}>入口</Text>
+        <Text style={{ fontSize: 17, color: '#94A3B8', lineHeight: 1.5, marginTop: 4 }}>用 Protocol Monitor（协议监控器）分析日志文件与通信。</Text>
+      </Box>
+      <Box style={{ background: '#16203A', borderRadius: 10, padding: 16, borderLeft: '4px solid #38BDF8' }}>
+        <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#E5EDF7' }}>自动分析</Text>
+        <Text style={{ fontSize: 17, color: '#94A3B8', lineHeight: 1.5, marginTop: 4 }}>代理自动读取日志、定位错误与时间戳、生成概览与建议。</Text>
+      </Box>
+      <Box style={{ background: '#16203A', borderRadius: 10, padding: 16, borderLeft: '4px solid #F97316' }}>
+        <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#E5EDF7' }}>价值</Text>
+        <Text style={{ fontSize: 17, color: '#94A3B8', lineHeight: 1.5, marginTop: 4 }}>可创建过滤器聚焦出错服务，大幅加快问题定位。</Text>
+      </Box>
+    </Box>
+    <Box style={{ width: '54%', flexDirection: 'column', gap: 12 }}>
+      <Box style={{ height: 348, background: '#16203A', borderRadius: 12, padding: 12, justifyContent: 'center' }}>
+        <Image src="assets/ai_analysis.png" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+      </Box>
+      <Box style={{ flex: 1, background: '#16203A', borderRadius: 12, padding: 16, justifyContent: 'center' }}>
+        <Text style={{ fontSize: 16, color: '#94A3B8', lineHeight: 1.5 }}>图：AI 驱动的协议监控分析——自动读日志、定位错误、生成建议。</Text>
+      </Box>
+    </Box>
+  </Box>
+  <Box style={{ height: 40, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>Vector CANoe AI · 研讨会分享</Text>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>16 / 23</Text>
+  </Box>
+</Slide>

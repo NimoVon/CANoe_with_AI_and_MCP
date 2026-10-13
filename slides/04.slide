@@ -1,0 +1,26 @@
+<Slide style={{ width: '1280px', height: '720px', background: '#0B1220', padding: '20px 64px' }}>
+  <Box style={{ height: 100, borderLeft: '6px solid #38BDF8', paddingLeft: 18, justifyContent: 'center' }}>
+    <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#E5EDF7' }}>Vector 的定位与愿景</Text>
+  </Box>
+  <Box style={{ height: 540, flexDirection: 'row', gap: 48, alignItems: 'stretch' }}>
+    <Box style={{ width: '34%', alignItems: 'flex-start', justifyContent: 'space-between' }}>
+      <Box>
+        <Text style={{ fontSize: 120, fontWeight: 'bold', color: '#F97316', lineHeight: 1 }}>40</Text>
+        <Text style={{ fontSize: 26, color: '#E5EDF7', marginTop: 4 }}>年</Text>
+      </Box>
+      <Text style={{ fontSize: 20, color: '#94A3B8', lineHeight: 1.6 }}>深耕汽车相关领域，<br />把 AI 融入你已在用的工具链。</Text>
+    </Box>
+    <Box style={{ width: '66%', gap: 22, justifyContent: 'space-between' }}>
+      <Text style={{ fontSize: 22, color: '#E5EDF7', lineHeight: 1.6 }}>核心公式：<span style={{ color: '#38BDF8', fontWeight: 'bold' }}>领域专长 ＋ 你的数据 ＋ 你已信任的 Vector 工具 ＝ 融入工作流的 AI</span></Text>
+      <Text style={{ fontSize: 20, color: '#94A3B8', lineHeight: 1.6 }}>目标：把复杂变为进展（turning complexity into progress）。</Text>
+      <Box style={{ background: '#16203A', borderRadius: 12, padding: 20, borderLeft: '4px solid #38BDF8' }}>
+        <Text style={{ fontSize: 20, color: '#E5EDF7', lineHeight: 1.6 }}>未来已来：以"霹雳游侠（Knight Rider）"应用为例的端到端 AI 工作流——从需求文件自动生成单元测试与虚拟 ECU 代码、跑小规模测试、分析高亮报告、经 SDX 部署运行，贯穿整个 Vector 工具链。</Text>
+      </Box>
+      <Text style={{ fontSize: 18, color: '#94A3B8', lineHeight: 1.6 }}>工作模式：把任务交给<span style={{ color: '#38BDF8', fontWeight: 'bold' }}>编排器（orchestrator）</span>，由其调度专用代理并管理交接，可选<span style={{ color: '#38BDF8', fontWeight: 'bold' }}>观察者</span>经 Web 仪表板监控。</Text>
+    </Box>
+  </Box>
+  <Box style={{ height: 40, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>Vector CANoe AI · 研讨会分享</Text>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>04 / 23</Text>
+  </Box>
+</Slide>

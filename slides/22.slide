@@ -1,0 +1,49 @@
+<Slide style={{ width: '1280px', height: '720px', background: '#0B1220', padding: '20px 64px' }}>
+  <Box style={{ height: 100, borderLeft: '6px solid #38BDF8', paddingLeft: 18, justifyContent: 'center' }}>
+    <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#E5EDF7' }}>术语表 · 不再被机翻误导</Text>
+  </Box>
+  <Box style={{ height: 540, flexDirection: 'row', gap: 32, alignItems: 'stretch' }}>
+    <Box style={{ width: '26%', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 20, color: '#94A3B8', lineHeight: 1.6 }}>整理自研讨会口径，修正了转录中的机翻错译，便于团队统一用语。</Text>
+      <Box style={{ marginTop: 18, background: '#16203A', borderRadius: 10, padding: 16, borderLeft: '4px solid #F97316' }}>
+        <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#E5EDF7' }}>读法提示</Text>
+        <Text style={{ fontSize: 16, color: '#94A3B8', lineHeight: 1.5, marginTop: 4 }}>CANoe 读作"卡诺"，Vector 读作"维克托"，不要按字面硬译。</Text>
+      </Box>
+    </Box>
+    <Box style={{ width: '74%', background: '#16203A', borderRadius: 12, padding: 16, justifyContent: 'center' }}>
+      <Table
+        style={{ width: '100%', height: '100%' }}
+        defaultTextStyle={{ fontSize: 15, textAlign: 'left', color: '#E5EDF7' }}
+        defaultCellStyle={{
+          border: {
+            left: { width: 1, color: '#294063' },
+            right: { width: 1, color: '#294063' },
+            top: { width: 1, color: '#294063' },
+            bottom: { width: 1, color: '#294063' },
+          },
+        }}
+        cells={[
+          [
+            { text: '术语', textStyle: { bold: true, color: '#0B1220' }, cellStyle: { background: { color: '#38BDF8' } } },
+            { text: '英文 / 缩写', textStyle: { bold: true, color: '#0B1220' }, cellStyle: { background: { color: '#38BDF8' } } },
+            { text: '含义', textStyle: { bold: true, color: '#0B1220' }, cellStyle: { background: { color: '#38BDF8' } } },
+          ],
+          ['CANoe', 'CANoe', 'Vector 汽车总线开发与测试软件（非"独木舟"）'],
+          ['Vector', 'Vector Informatik', '德国汽车软件供应商，CANoe 出品方'],
+          ['MCP', 'Model Context Protocol', '模型上下文协议：LLM 经标准接口读写 CANoe'],
+          ['LLM', 'Large Language Model', '大语言模型（非"法学硕士"）'],
+          ['Token', 'Token', '模型最小处理单元（非"手续费"）'],
+          ['Harness', 'AI Harness', 'AI 运行时/宿主，承载 LLM 与工具调用'],
+          ['Orchestrator', 'Orchestrator', '编排器：协调多个代理完成复杂工作流'],
+          ['BYOM', 'Bring Your Own Model', '自带模型：接入自有/第三方 LLM 端点'],
+          ['Knowledge Server', 'Vector Knowledge Server', '知识服务器：为 LLM 提供领域检索增强'],
+          ['AI Package', 'CANoe AI Package', '插件包：代理 + 技能 + MCP 服务器 + 文档'],
+        ]}
+      />
+    </Box>
+  </Box>
+  <Box style={{ height: 40, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>Vector CANoe AI · 研讨会分享</Text>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>22 / 23</Text>
+  </Box>
+</Slide>
