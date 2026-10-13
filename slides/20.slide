@@ -7,13 +7,8 @@
       <Box style={{ height: 348, background: '#16203A', borderRadius: 12, padding: 12, justifyContent: 'center' }}>
         <Image src="assets/roadmap_overview.png" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
       </Box>
-      <Box style={{ flex: 1, flexDirection: 'row', gap: 12 }}>
-        <Box style={{ width: '50%', background: '#16203A', borderRadius: 12, padding: 4, justifyContent: 'center' }}>
-          <Image src="assets/ai_roadmap_curve.png" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
-        </Box>
-        <Box style={{ width: '50%', background: '#16203A', borderRadius: 12, padding: 14, justifyContent: 'center' }}>
-          <Text style={{ fontSize: 15, color: '#94A3B8', lineHeight: 1.5 }}>左：总览——AI 能力随版本分阶段交付。下：整体演进曲线，效率与开发速度持续提升。</Text>
-        </Box>
+      <Box style={{ flex: 1, background: '#16203A', borderRadius: 12, padding: 16, justifyContent: 'center' }}>
+        <Text style={{ fontSize: 16, color: '#94A3B8', lineHeight: 1.5 }}>图：路线图总览——AI 能力随 CANoe 版本分阶段交付，从基础代理到代理式编排逐步深入。</Text>
       </Box>
     </Box>
     <Box style={{ width: '46%', gap: 12, justifyContent: 'space-between' }}>
