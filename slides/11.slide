@@ -13,9 +13,11 @@
     </Box>
     <Box style={{ width: '46%', gap: 12, justifyContent: 'space-between' }}>
       <Text style={{ fontSize: 18, color: '#E5EDF7', lineHeight: 1.55 }}><span style={{ color: '#38BDF8', fontWeight: 'bold' }}>解决答案无依据</span>：LLM 不确定时经 MCP 取 Vector 知识，答案基于官方文档而非臆测，减少幻觉。</Text>
-      <Text style={{ fontSize: 18, color: '#94A3B8', lineHeight: 1.55 }}>模型不变：无需训练或微调，仅在你提问时检索相关文档注入上下文。</Text>
-      <Text style={{ fontSize: 18, color: '#94A3B8', lineHeight: 1.55 }}>以 Vector ID 认证登录；四步：提问 → 调用 KSS → 文档入上下文 → 作答。</Text>
+      <Text style={{ fontSize: 18, color: '#94A3B8', lineHeight: 1.55 }}>模型不变：无需训练或微调，<span style={{ color: '#E5EDF7' }}>也不会用你的数据训练模型</span>；需以 Vector ID 认证登录。</Text>
       <Text style={{ fontSize: 18, color: '#F97316', lineHeight: 1.55 }}><span style={{ fontWeight: 'bold' }}>价值</span>：更快得到答案、更少幻觉、单一可信来源。</Text>
+      <Box style={{ height: 300, background: '#16203A', borderRadius: 12, padding: 4, justifyContent: 'center' }}>
+        <Image src="assets/knowledge_engineers.png" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+      </Box>
     </Box>
   </Box>
   <Box style={{ height: 40, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
